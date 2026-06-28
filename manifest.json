@@ -1,7 +1,6 @@
 {
   "stable": null,
-  "beta": null,
-  "alpha": {
+  "unstable": {
     "version": "1.0.0-alpha",
     "date": "2026-06-28",
     "notes": [
