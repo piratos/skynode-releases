@@ -1,0 +1,25 @@
+{
+  "stable": null,
+  "beta": null,
+  "alpha": {
+    "version": "1.0.0-alpha",
+    "date": "2026-06-28",
+    "notes": [
+      "First alpha release — avionics universal firmware",
+      "Includes PFD, Altimeter, Horizon, Airspeed, COM Radio, NAV Radio faces",
+      "SimConnect bridge integration for MSFS 2024",
+      "CAN bus TWAI 500 kbit/s, TinyUSB CDC serial"
+    ],
+    "url": "https://github.com/piratos/skynode-releases/releases/download/v1.0.0-alpha/skynode-os-v1.0.0-alpha.bin",
+    "sha256": "0d56610b9e453cf793254ed05a4b05fd947d49b8eea56d25ff8438fbf2d27625",
+    "faces": [
+      { "id": "pfd",       "name": "PFD",        "cat": "PRIMARY FLIGHT" },
+      { "id": "altimeter", "name": "Altimeter",  "cat": "PRIMARY FLIGHT" },
+      { "id": "horizon",   "name": "Horizon",    "cat": "PRIMARY FLIGHT" },
+      { "id": "horizon2",  "name": "Horizon II", "cat": "PRIMARY FLIGHT" },
+      { "id": "airspeed",  "name": "Airspeed",   "cat": "PRIMARY FLIGHT" },
+      { "id": "com_radio", "name": "COM Radio",  "cat": "RADIO" },
+      { "id": "nav_radio", "name": "NAV Radio",  "cat": "RADIO" }
+    ]
+  }
+}
